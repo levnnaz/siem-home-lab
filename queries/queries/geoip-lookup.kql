@@ -1,0 +1,5 @@
+let GeoIPDB_FULL = _GetWatchlist("geoip");
+SecurityEvent
+| where EventID == 4625
+| evaluate ipv4_lookup(GeoIPDB_FULL, IpAddress, network)
+| project TimeGenerated, Account, IpAddress, latitude, longitude, country
