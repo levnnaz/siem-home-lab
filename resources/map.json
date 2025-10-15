@@ -1,0 +1,10 @@
+{
+  "version": "Notebook/1.0",
+  "items": [
+    {
+      "type": "Map",
+      "title": "Failed Logins Map",
+      "query": "SecurityEvent | where EventID == 4625 | summarize count() by IpAddress, latitude, longitude"
+    }
+  ]
+}
