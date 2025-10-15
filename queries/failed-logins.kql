@@ -1,1 +1,4 @@
-
+SecurityEvent
+| where EventID == 4625
+| project TimeGenerated, Account, IpAddress, Activity
+| sort by TimeGenerated desc
