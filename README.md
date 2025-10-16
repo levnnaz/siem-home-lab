@@ -184,6 +184,7 @@ Delete all pre-populated visuals or text blocks so you can start from a blank ca
 Click **Add → Add query**.
 
 In the **Advanced Editor**, paste the contents of your **`map.json`** file (attack map configuration).
+🔗 [resources/map.json](resources/map.json)
 
 ### 4. Adjust Filters
 Modify the query to ensure it references your `SecurityEvent` table and the `geoip` watchlist join created earlier.
