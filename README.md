@@ -74,7 +74,7 @@ Before you begin, make sure you have:
 
 ---
 
-## 🧩 Part 1 – Azure Subscription Setup
+## 🧩 Part 1 - Azure Subscription Setup
 
 1. Create a free or paid Azure Subscription  
    🔗 [Create Free Azure Account](https://azure.microsoft.com/en-us/pricing/purchase-options/azure-account)
@@ -84,7 +84,7 @@ Before you begin, make sure you have:
 ![Azure Portal](screenshots/azure-portal.png)
 ---
 
-## 💻 Part 2 – Creating the Honeypot VM
+## 💻 Part 2 - Creating the Honeypot VM
 
 ### 💻 VM Creation
 ![Create VM](screenshots/create-vm.png)
@@ -101,7 +101,7 @@ Before you begin, make sure you have:
 
 ---
 
-## 🔍 Part 3 – Logging into the VM & Inspecting Logs
+## 🔍 Part 3 - Logging into the VM & Inspecting Logs
 
 1. Attempt 3 failed logins as user `employee`.  
 2. Successfully log in as your actual user.  
@@ -110,7 +110,7 @@ Before you begin, make sure you have:
 
 ---
 
-## 📊 Part 4 – Log Forwarding & KQL
+## 📊 Part 4 - Log Forwarding & KQL
 
 1. Create a **Log Analytics Workspace (LAW)**.  
 2. Create a **Microsoft Sentinel instance** and connect it to the LAW.  
@@ -151,7 +151,7 @@ In **Microsoft Sentinel**, navigate to:
 | **Source Type** | Local File |
 | **Search Key** | `network` |
 
-After uploading, allow the watchlist to fully import — there should be approximately **55,000 rows**.
+After uploading, allow the watchlist to fully import - there should be approximately **55,000 rows**.
 
 ### 🌍 GeoIP Watchlist
 ![GeoIP Watchlist](screenshots/geoip-watchlist.png)
@@ -248,8 +248,6 @@ Be mindful of Azure resource usage to avoid unnecessary costs.
 - ⏰ **Enable Auto-Shutdown** in the VM settings.
 
 - 🧹 **Delete unused resources** such as NSGs, disks, and NICs.
-
-- 💡 **Use the Cyber Range environment** to avoid direct Azure charges and backend costs.
 
 ---
 
