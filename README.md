@@ -194,10 +194,6 @@ Save and refresh the workbook.
 You should now see a **live attack map** that dynamically displays attacker IPs and their geographic sources.
 
 ---
-
-🗺️ *Each plotted point represents a failed login attempt enriched with location data from the GeoIP watchlist.*
-
----
 ### 🗺️ Attack Map Visualization
 ![Attack Map](screenshots/attack-map.png)
 
