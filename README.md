@@ -47,6 +47,8 @@ By the end of the lab, you will:
     ▼
     [Workbook: Attack Map]
 
+![Architecture Diagram](screenshots/architecture.png)
+
 ---
 
 ## 🎯 Lab Objectives
