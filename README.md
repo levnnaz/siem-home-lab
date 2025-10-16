@@ -132,7 +132,7 @@ After forwarding your logs to Microsoft Sentinel, you can enrich them with **geo
 ### 1. Download the GeoIP Data File
 Download the summarized GeoIP dataset:
 
-🔗 [geoip-summarized.csv](https://raw.githubusercontent.com/joshmadakor1/lognpacific-public/refs/heads/main/misc/geoip-summarized.csv)
+🔗 [resources/geoip_summarised.csv](resources/geoip_summarised.csv)
 
 ### 2. Import the GeoIP File as a Watchlist
 
