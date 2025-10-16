@@ -8,7 +8,7 @@ This lab walks through setting up Azure, deploying a honeypot virtual machine, c
 ## 📋 Table of Contents
 
 1. [Overview](#-overview)
-2. [Architecture](#-architecture)
+2. [Architecture](#architecture)
 3. [Lab Objectives](#-lab-objectives)
 4. [Part 1 – Azure Subscription Setup](#-part-1--azure-subscription-setup)
 5. [Part 2 – Creating the Honeypot VM](#-part-2--creating-the-honeypot-vm)
@@ -75,16 +75,21 @@ Before you begin, make sure you have:
    🔗 [Create Free Azure Account](https://azure.microsoft.com/en-us/pricing/purchase-options/azure-account)
 2. Sign in to the Azure Portal:  
    🔗 [https://portal.azure.com](https://portal.azure.com)
-
+### 🖥️ Azure Portal
+![Azure Portal](screenshots/azure-portal.png)
 ---
 
 ## 💻 Part 2 – Creating the Honeypot VM
-
+### 💻 VM Creation
+![Create VM](screenshots/create-vm.png)
 1. Go to **Virtual Machines** → **Create a new Windows 10 VM**.  
 2. Choose an appropriate VM size (B1s or B2s for cost efficiency).  
 3. Record your **username and password**.  
-4. Go to your VM’s **Network Security Group (NSG)** → Allow **All Inbound Traffic**.  
-5. Connect to your VM → disable Windows Firewall (`wf.msc → Properties → All Off`).
+4. Go to your VM’s **Network Security Group (NSG)** → Allow **All Inbound Traffic**.
+6. Connect to your VM → disable Windows Firewall (`wf.msc → Properties → All Off`).
+
+### 🔐 NSG Rules
+![NSG Rules](screenshots/nsg-rules.png)
 
 > ⚠️ The VM will be publicly accessible; treat it as a **honeypot**, not for personal use.
 
@@ -112,6 +117,8 @@ SecurityEvent
 | where EventID == 4625
 | order by TimeGenerated desc
 ```
+### 📊 Log Analytics Workspace
+![Log Analytics Workspace](screenshots/log-analytics.png)
 
 ---
 
@@ -139,6 +146,9 @@ In **Microsoft Sentinel**, navigate to:
 | **Search Key** | `network` |
 
 After uploading, allow the watchlist to fully import — there should be approximately **54,000 rows**.
+
+### 🌍 GeoIP Watchlist
+![GeoIP Watchlist](screenshots/geoip-watchlist.png)
 
 ### 3. Join GeoIP Data with Your Security Logs
 
@@ -185,6 +195,8 @@ You should now see a **live attack map** that dynamically displays attacker IPs 
 🗺️ *Each plotted point represents a failed login attempt enriched with location data from the GeoIP watchlist.*
 
 ---
+### 🗺️ Attack Map Visualization
+![Attack Map](screenshots/attack-map.png)
 
 ## 🧮 Sample KQL Queries
 
