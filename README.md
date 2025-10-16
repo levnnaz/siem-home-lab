@@ -15,7 +15,7 @@ This lab walks through setting up Azure, deploying a honeypot virtual machine, c
 7. [Part 3 – Logging into the VM & Inspecting Logs](#-part-3--logging-into-the-vm--inspecting-logs)
 8. [Part 4 – Log Forwarding & KQL](#-part-4--log-forwarding--kql)
 9. [Part 5 – Log Enrichment & Location Data](#-part-5--log-enrichment--location-data)
-10. [Part 6 – Attack Map Workbook](#-part-6-attack-map-workbook)
+10. [Part 6 – Attack Map Workbook](#-part-6--attack-map-workbook)
 11. [Sample KQL Queries](#-sample-kql-queries)
 12. [Cost Optimisation Tips](#-cost-optimisation-tips)
 13. [Results](#-results)
