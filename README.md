@@ -1,4 +1,4 @@
-# 🛰️ Microsoft Sentinel Home Lab
+# Microsoft Sentinel Home Lab
 
 A step-by-step guided project for building a **Microsoft Sentinel SIEM Home Lab** from scratch.  
 This lab walks through setting up Azure, deploying a honeypot virtual machine, collecting security logs, forwarding them to Log Analytics, enriching them with geolocation data, and visualizing attacks in a Sentinel workbook.
@@ -23,7 +23,7 @@ This lab walks through setting up Azure, deploying a honeypot virtual machine, c
 
 ---
 
-## 🧠 Overview
+## Overview
 
 This project demonstrates how to deploy and use **Microsoft Sentinel** for threat detection and security monitoring using Azure resources.
 
@@ -36,7 +36,7 @@ By the end of the lab, you will:
 
 ---
 
-## 🏗️ Architecture
+## Architecture
 
     [Attacker] ─▶ [Azure VM (Honeypot)]
     │
@@ -74,7 +74,7 @@ Before you begin, make sure you have:
 
 ---
 
-## 🧩 Part 1 - Azure Subscription Setup
+## Part 1 - Azure Subscription Setup
 
 1. Create a free or paid Azure Subscription  
    🔗 [Create Free Azure Account](https://azure.microsoft.com/en-us/pricing/purchase-options/azure-account)
@@ -85,7 +85,7 @@ Before you begin, make sure you have:
 
 ---
 
-## 💻 Part 2 - Creating the Honeypot VM
+## Part 2 - Creating the Honeypot VM
 
 ### 💻 VM Creation
 ![Create VM](screenshots/create-vm.png)
@@ -102,7 +102,7 @@ Before you begin, make sure you have:
 
 ---
 
-## 🔍 Part 3 - Logging into the VM & Inspecting Logs
+## Part 3 - Logging into the VM & Inspecting Logs
 
 1. Attempt 3 failed logins as user `employee`.  
 2. Successfully log in as your actual user.  
@@ -111,7 +111,7 @@ Before you begin, make sure you have:
 
 ---
 
-## 📊 Part 4 - Log Forwarding & KQL
+## Part 4 - Log Forwarding & KQL
 
 1. Create a **Log Analytics Workspace (LAW)**.  
 2. Create a **Microsoft Sentinel instance** and connect it to the LAW.  
@@ -129,7 +129,7 @@ SecurityEvent
 
 ---
 
-## 🌍 Part 5 - Log Enrichment & Location Data
+## Part 5 - Log Enrichment & Location Data
 
 After forwarding your logs to Microsoft Sentinel, you can enrich them with **geolocation data** to identify where attacker IPs are originating from.
 
@@ -173,7 +173,7 @@ WindowsEvents
 
 ---
 
-## 🗺️ Part 6 - Attack Map Workbook
+## Part 6 - Attack Map Workbook
 
 After enriching your logs with GeoIP data, you can visualize attack origins in **Microsoft Sentinel** using a custom workbook.
 
@@ -206,7 +206,7 @@ You should now see a **live attack map** that dynamically displays attacker IPs 
 
 ---
 
-## 🧮 Sample KQL Queries
+## Sample KQL Queries
 
 Below are some useful **KQL (Kusto Query Language)** examples to analyze your Sentinel logs.
 
@@ -241,12 +241,12 @@ SecurityEvent
 
 Be mindful of Azure resource usage to avoid unnecessary costs.
 
-- 💤 **Stop your VM when not in use:**
+- **Stop your VM when not in use:**
   ```bash
   az vm stop --name <vmname>
-- ⏰ **Enable Auto-Shutdown** in the VM settings.
+- **Enable Auto-Shutdown** in the VM settings.
 
-- 🧹 **Delete unused resources** such as NSGs, disks, and NICs.
+- **Delete unused resources** such as NSGs, disks, and NICs.
 
 ---
 
