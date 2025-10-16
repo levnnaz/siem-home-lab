@@ -82,6 +82,7 @@ Before you begin, make sure you have:
 ---
 
 ## 💻 Part 2 – Creating the Honeypot VM
+
 ### 💻 VM Creation
 ![Create VM](screenshots/create-vm.png)
 1. Go to **Virtual Machines** → **Create a new Windows 10 VM**.  
@@ -256,7 +257,7 @@ At the end of this project, you will have:
 - Centralized logs in **Log Analytics Workspace**  
 - Enriched events with **GeoIP location data**  
 - A **Microsoft Sentinel attack map** showing global intrusion attempts
-- 
+
 ---
 
 ## 📚 References & Resources
