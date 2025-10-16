@@ -203,11 +203,11 @@ You should now see a **live attack map** that dynamically displays attacker IPs 
 ### 🗺️ Attack Map Visualization
 ![Attack Map](screenshots/attack-map.png)
 
+---
+
 ## 🧮 Sample KQL Queries
 
 Below are some useful **KQL (Kusto Query Language)** examples to analyze your Sentinel logs.
-
----
 
 ### 🔹 Failed Logins by Country
 
