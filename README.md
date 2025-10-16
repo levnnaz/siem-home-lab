@@ -263,6 +263,7 @@ At the end of this project, you will have:
 
 ## 📚 References & Resources
 
+- [Azure account](https://azure.microsoft.com/en-us/free)
 - [Microsoft Sentinel Documentation](https://learn.microsoft.com/en-us/azure/sentinel/)
 - [Kusto Query Language (KQL) Guide](https://learn.microsoft.com/en-us/azure/data-explorer/kusto/query/)
 - [Josh Madakor YouTube Channel](https://www.youtube.com/c/JoshMadakor)
