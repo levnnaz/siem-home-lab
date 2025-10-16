@@ -63,6 +63,7 @@ By the end of the lab, you will:
 6. Build a live **attack map** dashboard in Sentinel.
 
 ---
+
 ## ⚙️ Prerequisites
 
 Before you begin, make sure you have:
