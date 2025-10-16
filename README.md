@@ -6,8 +6,8 @@ This lab walks through setting up Azure, deploying a honeypot virtual machine, c
 ---
 
 ## 📋 Table of Contents 
-1. [Overview](#-overview) 
-2. [Architecture](#-architecture)
+1. [Overview](#overview) 
+2. [Architecture](#architecture)
 3. [Lab Objectives](#-lab-objectives)
 4. [Prerequisites](#-prerequisites)
 5. [Part 1 – Azure Subscription Setup](#-part-1--azure-subscription-setup)
