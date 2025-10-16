@@ -159,9 +159,10 @@ Use the following **KQL query** to enrich your Windows security events with geol
 ```kql
 let GeoIPDB_FULL = _GetWatchlist("geoip");
 let WindowsEvents = SecurityEvent
-| where EventID == 4625
-| evaluate ipv4_lookup(GeoIPDB_FULL, IpAddress, network)
-| order by TimeGenerated desc;
+    | where IpAddress == <attacker IP address>
+    | where EventID == 4625
+    | order by TimeGenerated desc
+    | evaluate ipv4_lookup(GeoIPDB_FULL, IpAddress, network);
 WindowsEvents
 ```
 
