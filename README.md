@@ -258,8 +258,15 @@ At the end of this project, you will have:
 - A deployed **honeypot VM** receiving real-world attack traffic  
 - Centralized logs in **Log Analytics Workspace**  
 - Enriched events with **GeoIP location data**  
-- A **Microsoft Sentinel attack map** showing global intrusion attempts  
+- A **Microsoft Sentinel attack map** showing global intrusion attempts
+- 
+---
 
+## 📚 References & Resources
+
+- [Microsoft Sentinel Documentation](https://learn.microsoft.com/en-us/azure/sentinel/)
+- [Kusto Query Language (KQL) Guide](https://learn.microsoft.com/en-us/azure/data-explorer/kusto/query/)
+- [Josh Madakor YouTube Channel](https://www.youtube.com/c/JoshMadakor)
 
 
 
