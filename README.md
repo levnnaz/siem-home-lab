@@ -17,7 +17,8 @@ This lab walks through setting up Azure, deploying a honeypot virtual machine, c
 9. [Part 6 – Attack Map Workbook](#-part-6-attack-map-workbook)
 10. [Sample KQL Queries](#-sample-kql-queries)
 11. [Cost Optimisation Tips](#-cost-optimisation-tips)
-12. [References & Resources](#-references--resources)
+12. [Results](#-results)
+13. [References & Resources](#-references--resources)
 
 ---
 
