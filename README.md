@@ -82,6 +82,7 @@ Before you begin, make sure you have:
    🔗 [https://portal.azure.com](https://portal.azure.com)
 ### 🖥️ Azure Portal
 ![Azure Portal](screenshots/azure-portal.png)
+
 ---
 
 ## 💻 Part 2 - Creating the Honeypot VM
