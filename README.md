@@ -128,7 +128,7 @@ SecurityEvent
 
 ---
 
-## 🌍 Part 5 – Log Enrichment & Location Data
+## 🌍 Part 5 - Log Enrichment & Location Data
 
 After forwarding your logs to Microsoft Sentinel, you can enrich them with **geolocation data** to identify where attacker IPs are originating from.
 
@@ -172,7 +172,7 @@ WindowsEvents
 
 ---
 
-## 🗺️ Part 6 – Attack Map Workbook
+## 🗺️ Part 6 - Attack Map Workbook
 
 After enriching your logs with GeoIP data, you can visualize attack origins in **Microsoft Sentinel** using a custom workbook.
 
@@ -239,8 +239,6 @@ SecurityEvent
 ## 💰 Cost Optimisation Tips
 
 Be mindful of Azure resource usage to avoid unnecessary costs.
-
----
 
 - 💤 **Stop your VM when not in use:**
   ```bash
