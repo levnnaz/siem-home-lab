@@ -16,7 +16,7 @@ This lab walks through setting up Azure, deploying a honeypot virtual machine, c
 8. [Part 5 – Log Enrichment & Location Data](#-part-5--log-enrichment--location-data)
 9. [Part 6 – Attack Map Workbook](#-part-6-attack-map-workbook)
 10. [Sample KQL Queries](#-sample-kql-queries)
-11. [Cost Optimization Tips](#-cost-optimization-tips)
+11. [Cost Optimization Tips](#-cost-optimisation-tips)
 12. [References & Resources](#-references-&-resources) a few tabs are not working
 
 ---
@@ -232,7 +232,7 @@ SecurityEvent
 
 ---
 
-## 💰 Cost Optimization Tips
+## 💰 Cost Optimisation Tips
 
 Be mindful of Azure resource usage to avoid unnecessary costs.
 
