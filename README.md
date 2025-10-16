@@ -151,7 +151,7 @@ In **Microsoft Sentinel**, navigate to:
 | **Source Type** | Local File |
 | **Search Key** | `network` |
 
-After uploading, allow the watchlist to fully import — there should be approximately **54,000 rows**.
+After uploading, allow the watchlist to fully import — there should be approximately **55,000 rows**.
 
 ### 🌍 GeoIP Watchlist
 ![GeoIP Watchlist](screenshots/geoip-watchlist.png)
@@ -187,7 +187,8 @@ Delete all pre-populated visuals or text blocks so you can start from a blank ca
 ### 3. Add a Query Element
 Click **Add → Add query**.
 
-In the **Advanced Editor**, paste the contents of your **`map.json`** file (attack map configuration).
+In the **Advanced Editor**, paste the contents of your **`map.json`** file (attack map configuration):
+
 🔗 [resources/map.json](resources/map.json)
 
 ### 4. Adjust Filters
